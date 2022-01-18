@@ -13,10 +13,10 @@ const useStyles = makeStyles((theme) => ({
   moreProjects: {
     '&': {
       margin: '20px auto',
-      backgroundColor: '#39b175',
+      backgroundColor: '#F09A00',
       boxShadow: 'none',
       '&:hover': {
-        backgroundColor: '#0be779',
+        backgroundColor: '#A36B02',
         boxShadow: 'none',
       },
     },
@@ -44,12 +44,8 @@ const client = new ApolloClient({
 })
 
 const queryInfo = {
-  owner: 'jigalin',
-  repositories: [
-    'portfolio-landing-page',
-    'react-pokedex',
-    'JS-DOM-for-beginners',
-  ],
+  owner: 'scrambledfox',
+  repositories: ['Euro-Truck-Simulator-Roof-Link'],
 }
 
 const query = gql`
@@ -140,7 +136,7 @@ const Projects = () => {
             <div className="more-projects-wrapper">
               <a
                 className="project-link"
-                href={'https://github.com/jigalin'}
+                href={'https://github.com/ScrambledFox'}
                 target="_blank"
                 rel="noopener noreferrer"
               >

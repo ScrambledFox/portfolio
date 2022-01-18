@@ -22,7 +22,7 @@
   margin: 0;
 }
 .textLink {
-  color: #0be779;
+  color: #f09a00;
   cursor: pointer;
 }
 .location-wrapper {
@@ -51,15 +51,15 @@
   display: flex;
   background-color: #3e4555;
   border-radius: 2px;
-  height: 30px;
+  height: 40px;
   margin-bottom: 10px;
 }
 .skill-bar {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
-  height: 30px;
-  background-color: #0be779;
+  height: 40px;
+  background-color: #f09a00;
   border-radius: 2px 0px 0px 2px;
 }
 @media screen and (min-width: 960px) {
@@ -74,10 +74,10 @@
     align-items: center;
     border-radius: 2px 0px 0px 2px;
     left: 0;
-    width: 80px;
-    height: 30px;
+    width: 180px;
+    height: 40px;
     font-size: 12px;
-    background-color: #39b175;
+    background-color: #a36b02;
     font-weight: 600;
     color: white;
   }
@@ -99,7 +99,7 @@
     width: 80px;
     height: 30px;
     font-size: 12px;
-    background-color: #39b175;
+    background-color: #f09a00;
     font-weight: 600;
     color: white;
   }
@@ -124,7 +124,7 @@
     width: 65px;
     height: 30px;
     font-size: 10px;
-    background-color: #39b175;
+    background-color: #f09a00;
     font-weight: 600;
     color: white;
   }

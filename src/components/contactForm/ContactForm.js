@@ -49,10 +49,10 @@ const useStyles = makeStyles((theme) => ({
   },
   submit: {
     '&': {
-      backgroundColor: '#39b175',
+      backgroundColor: '#F09A00',
       boxShadow: 'none',
       '&:hover': {
-        backgroundColor: '#6de9ab',
+        backgroundColor: '#A36B02',
         boxShadow: 'none',
       },
     },
@@ -107,7 +107,7 @@ const ContactForm = () => {
       <form
         className="contact-form"
         onSubmit={submitForm}
-        action="https://formspree.io/mvolplar"
+        action="https://formspree.io/f/mwkyvqqa"
         method="POST"
       >
         <TextField

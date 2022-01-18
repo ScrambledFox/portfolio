@@ -26,14 +26,14 @@ const Experience = () => {
             }}
           >
             <p style={{ textAlign: 'center' }}>
-              Further in-depth experience pre 2020 can be found on my{' '}
+              Previous education and Work experience can be found on{' '}
               <a
-                href="https://www.linkedin.com/in/mjigalin/"
+                href="https://www.linkedin.com/in/jorislodewijks/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
                   textDecoration: 'none',
-                  color: '#0be779',
+                  color: '#f09a00',
                   cursor: 'pointer',
                 }}
               >

@@ -2,36 +2,29 @@
   "skills": [
     {
       "id": 0,
-      "skillName": "Design",
+      "skillName": "Business and Entrepreneurship",
       "amount": "95"
     },
     {
       "id": 1,
-      "skillName": "React.js",
+      "skillName": "Creativity and Aesthetics",
       "amount": "90"
     },
     {
       "id": 2,
-      "skillName": "Photoshop",
+      "skillName": "Math, Data and Computing",
       "amount": "90"
     },
-    { "id": 3, "skillName": "Javascript", "amount": "85" },
+    { "id": 3, "skillName": "Technology and Realisation", "amount": "85" },
     {
       "id": 4,
-      "skillName": "Node.js",
+      "skillName": "User and Society",
       "amount": "80"
     },
     {
       "id": 5,
-      "skillName": "REST",
+      "skillName": "Design and Research Processes",
       "amount": "75"
-    },
-    { "id": 6, "skillName": "Apollo", "amount": "70" },
-    { "id": 7, "skillName": "Gatsby", "amount": "70" },
-    {
-      "id": 8,
-      "skillName": "Backend",
-      "amount": "60"
     }
   ]
 }

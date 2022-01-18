@@ -1,15 +1,15 @@
 module.exports = {
   particles: {
     particles: {
-      number: { value: 20 },
-      color: { value: ['#0be779', '#008a3e', '#a3ffce'] },
+      number: { value: 30 },
+      color: { value: ['#0C67F0', '#5594F2', '#063070'] },
       opacity: {
-        value: 0.5,
-        random: false,
+        value: 0.65,
+        random: true,
         anim: {
           enable: true,
           speed: 0.2,
-          opacity_min: 0.3,
+          opacity_min: 0.2,
           sync: true,
         },
       },
@@ -20,8 +20,8 @@ module.exports = {
       line_linked: {
         enable: true,
         distance: 450,
-        color: '#ffffff',
-        opacity: 0.1,
+        color: '#fff',
+        opacity: 0.5,
         width: 1,
       },
       move: {
@@ -30,7 +30,7 @@ module.exports = {
         direction: 'none',
         random: true,
         straight: false,
-        bounce: true,
+        bounce: false,
       },
     },
     interactivity: {
@@ -46,7 +46,7 @@ module.exports = {
       modes: {
         bubble: {
           distance: 200,
-          size: 17,
+          size: 20,
           duration: 1,
           opacity: 0.8,
           speed: 2,

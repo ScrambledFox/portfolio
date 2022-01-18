@@ -8,8 +8,10 @@ import Typewriter from 'typewriter-effect'
 import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle'
 import Navbar from '../navbar/Navbar'
 import config from '../../config'
-import profile from '../../images/matt.png'
+import profile from '../../images/joris.jpg'
 import linkedin from '../../images/social/linkedin.png'
+import github from '../../images/social/github.png'
+import instagram from '../../images/social/instagram.png'
 
 const Home = () => {
   const [imageLoaded, setImageLoaded] = useState(false)
@@ -18,15 +20,15 @@ const Home = () => {
       <div className="home">
         <Particles className="particles" params={config.particles} />
         <div className={`greeting${!imageLoaded ? ' hide' : ''}`}>
-          <Fade bottom distance="40px">
+          <Fade bottom distance="100px">
             <img
               className="profile"
-              alt="m.jigalin profile"
+              alt="aj.lodewijks profile"
               src={profile}
               onLoad={() => setImageLoaded(true)}
             />
             <h1 className="greeting-text">
-              Hi, I'm <span className="name">Matthew Jigalin</span>.{' '}
+              Hi, I'm <span className="name">Joris Lodewijks</span>.{' '}
               <span className="wave-emoji" role="img" aria-label="waving hand">
                 👋
               </span>
@@ -35,10 +37,10 @@ const Home = () => {
               <Typewriter
                 options={{
                   strings: [
-                    'I like to design things.',
-                    'I love learning new tech.',
-                    'I love meeting new people.',
-                    'I create unique digital experiences.',
+                    'I love doing this.',
+                    'I love doing that.',
+                    'I love everything',
+                    'I do this.',
                   ],
                   autoStart: true,
                   loop: true,
@@ -56,6 +58,20 @@ const Home = () => {
                   rel="noopener noreferrer"
                 >
                   <img src={linkedin} alt="Linkedin Logo" width="50px" />
+                </a>
+                <a
+                  href="https://github.com/ScrambledFox"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={github} alt="Github Logo" width="50px" />
+                </a>
+                <a
+                  href="https://www.instagram.com/jorislodewijks/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={instagram} alt="Instagram Logo" width="50px" />
                 </a>
               </div>
             </Bounce>

@@ -13,25 +13,21 @@ const About = () => {
         <Fade duration={1000}>
           <div className="about-text">
             <h2>Who am I?</h2>
+            <p>I'm Joris.</p>
             <p>
-              I'm Matt{' '}
               <span role="img" aria-label="lightning">
-                😄
+                ⚡
               </span>{' '}
+              I'm an industrial designer and engineer working on hardware and
+              software solutions for social challenges making use of emerging
+              technologies.
             </p>
             <p>
               <span role="img" aria-label="lightning">
                 ⚡
               </span>{' '}
-              I'm a software engineer focusing on Front-End web and emerging
-              tech such as VR, AR and Blockchain.
-            </p>
-            <p>
-              <span role="img" aria-label="lightning">
-                ⚡
-              </span>{' '}
-              You can find me working with UE5, JavaScript, React, Vue, Node,
-              Apollo and Gatsby.
+              You can find me working with Unity, C#, C++, .NET, JavaScript,
+              React and Node.
             </p>
             <div className="typewriter">
               <p className="typewriter-start">
@@ -42,15 +38,7 @@ const About = () => {
               </p>
               <Typewriter
                 options={{
-                  strings: [
-                    'learning new technologies',
-                    'exercising',
-                    'solving complex problems',
-                    'skiing',
-                    'fixing hard-to-fix bugs',
-                    'trying new things',
-                    'collaborating with others',
-                  ],
+                  strings: ['creating IoT solutions'],
                   autoStart: true,
                   loop: true,
                 }}
@@ -97,7 +85,7 @@ const About = () => {
                   d="M11.536 3.464a5 5 0 010 7.072L8 14.07l-3.536-3.535a5 5 0 117.072-7.072v.001zm1.06 8.132a6.5 6.5 0 10-9.192 0l3.535 3.536a1.5 1.5 0 002.122 0l3.535-3.536zM8 9a2 2 0 100-4 2 2 0 000 4z"
                 ></path>
               </svg>
-              <p>Sydney, Australia</p>
+              <p>Eindhoven, The Netherlands</p>
             </div>
           </div>
         </Fade>
