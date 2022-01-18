@@ -26,7 +26,7 @@ const Experience = () => {
             }}
           >
             <p style={{ textAlign: 'center' }}>
-              Previous education and Work experience can be found on{' '}
+              Previous education and more Work experience can be found on{' '}
               <a
                 href="https://www.linkedin.com/in/jorislodewijks/"
                 target="_blank"

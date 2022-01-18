@@ -18,16 +18,18 @@ const About = () => {
               <span role="img" aria-label="lightning">
                 ⚡
               </span>{' '}
-              I'm an industrial designer and engineer working on hardware and
-              software solutions for social challenges making use of emerging
-              technologies.
+              I'm an Industrial Designer and Full-Stack Software Engineer
+              working on hardware and software solutions for social challenges
+              by making use of emerging technologies such as Internet of Things,
+              Artificial Intelligence and decentralized computing.
             </p>
             <p>
               <span role="img" aria-label="lightning">
                 ⚡
               </span>{' '}
               You can find me working with Unity, C#, C++, .NET, JavaScript,
-              React and Node.
+              React and Node. Currently working with Internet of Things
+              applications running on MQTT and OOCSI.
             </p>
             <div className="typewriter">
               <p className="typewriter-start">
@@ -38,17 +40,25 @@ const About = () => {
               </p>
               <Typewriter
                 options={{
-                  strings: ['creating IoT solutions'],
+                  strings: [
+                    'creating IoT solutions',
+                    'tinkering with new projects',
+                    'building smart and helpful solutions',
+                    'helping build a better world with design',
+                    'a good challenge',
+                  ],
                   autoStart: true,
                   loop: true,
+                  delay: 50,
+                  deleteSpeed: 25,
                 }}
               />
               <p>.</p>
             </div>
             <p>
-              Since 2015 - I've spent my time seeking and learning new
-              technologies and forms of digital expression. This has led to me
-              working on some amazing world-class{' '}
+              Since 2016 - I've spent my time seeking and learning new
+              technologies. By integrating my skills in software with design, I
+              developed some awesome{' '}
               <Link
                 className="textLink"
                 to="projects"
@@ -56,9 +66,9 @@ const About = () => {
                 smooth={true}
                 duration={500}
               >
-                projects
+                projects{' '}
               </Link>
-              , worked at some{' '}
+              worked at some{' '}
               <Link
                 className="textLink"
                 to="experience"

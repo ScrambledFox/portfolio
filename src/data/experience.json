@@ -2,19 +2,114 @@
   "experience": [
     {
       "id": 0,
-      "link": "https://www.8secondz.com/",
-      "company": "internship",
-      "title": "Creative Lead - Web & App Teams",
-      "dateFrom": "June 2020",
-      "dateTo": "July 2021",
+      "link": "",
+      "company": "Robowars Committee",
+      "title": "Promotion Officer",
+      "dateFrom": "September 2017",
+      "dateTo": "March 2018",
       "info": [
-        "Responsible for web team front-end development and design",
-        "Led in app UI/UX & company wide creative media content"
+        "Promoting and Creating Promotion materials for a University wide event.",
+        ""
       ],
-      "stack": ["Vue.js", "Nuxt.js", "Node.js", "AWS"],
-      "logoheight": 80,
+      "stack": [
+        "Creativity and Aesthetics",
+        "Professional Skills",
+        "Graphic Design",
+        "Adobe Suite"
+      ],
+      "logoheight": 105,
+      "colourPrimary": "linear-gradient(to bottom, #aaf, #2684FF)",
+      "colourSecondary": "#fff"
+    },
+    {
+      "id": 1,
+      "link": "",
+      "company": "Team IGNITE",
+      "title": "Lead Software Engineer",
+      "dateFrom": "December 2018",
+      "dateTo": "December 2019",
+      "info": [
+        "Led a team of developers to create efficient software for a 3d light installation.",
+        "From student team and continued as Hypar Collective organisation to continue creating modular light installations."
+      ],
+      "stack": ["Unity3d", ".NET"],
+      "logoheight": 40,
+      "colourPrimary": "linear-gradient(to bottom, #608000, #000)",
+      "colourSecondary": "#000"
+    },
+    {
+      "id": 2,
+      "link": "https://moeilijkedingen.nl/",
+      "company": "Bureau Moeilijke Dingen",
+      "title": "Full-Stack Developer (Internship)",
+      "dateFrom": "September 2019",
+      "dateTo": "January 2020",
+      "info": [
+        "Creating useful and insightful functionality for users.",
+        "Development with a focus on futuring."
+      ],
+      "stack": ["Unity3d", ".NET", "Node.js", "React.js", "C++"],
+      "logoheight": 125,
       "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)",
       "colourSecondary": "linear-gradient(to bottom, #f4592b, #f28d25)"
+    },
+    {
+      "id": 3,
+      "link": "https://lucid.cc/winston/difficult-things-committee/",
+      "company": "Difficult Things Committee",
+      "title": "Full-Stack Software Engineer",
+      "dateFrom": "September 2018",
+      "dateTo": "May 2021",
+      "info": [
+        "Creating technical solutions for difficult problems.",
+        "Game Development for crowds with live IoT data."
+      ],
+      "stack": [
+        "Unity3d",
+        ".NET",
+        "Node.js",
+        "React.js",
+        "C++",
+        "Java",
+        "Tailwind",
+        "Bootstrap"
+      ],
+      "logoheight": 100,
+      "colourPrimary": "linear-gradient(to bottom, #E55B8F, #4995A2)",
+      "colourSecondary": "linear-gradient(to bottom, #f4592b, #f28d25)"
+    },
+    {
+      "id": 4,
+      "link": "https://www.3dbyflow.com/",
+      "company": "byFlow",
+      "title": "Junior Software Engineer",
+      "dateFrom": "August 2020",
+      "dateTo": "Current",
+      "info": [
+        "Creating custom cloud-based web application for professional chefs",
+        "Full-Stack development for user-focused applications."
+      ],
+      "stack": ["Django", "Node.js", "React.js"],
+      "logoheight": 120,
+      "colourPrimary": "linear-gradient(to bottom, #22AAC4, #2684FF)",
+      "colourSecondary": "linear-gradient(to bottom, #f4592b, #f28d25)"
+    },
+    {
+      "id": 5,
+      "link": "https://hyparcollective.nl/",
+      "company": "Hypar Collective",
+      "title": "Lead Software Engineer",
+      "dateFrom": "December 2019",
+      "dateTo": "Current",
+      "info": [
+        "Development of a pixel-mapper and show manager for 3d light installations.",
+        "Full-Stack development for dynamic and modular light installations with user interaction.",
+        "Built fast back-end for real-time quick and accurate light calculations based on generated animations."
+      ],
+      "stack": ["Node.js", "React.js", ".NET", "C++"],
+      "logoheight": 80,
+      "colourPrimary": "linear-gradient(to bottom, #3f68ab, #9e7c1e)",
+      "colourSecondary": "#222"
     }
   ]
 }

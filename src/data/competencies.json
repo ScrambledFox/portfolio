@@ -1,0 +1,60 @@
+{
+  "competencies": [
+    {
+      "id": 0,
+      "name": "Business and Entrepreneurship",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dignissim quam, ac eleifend nunc. Quisque convallis, ipsum ut placerat posuere, tellus tellus egestas eros, at posuere enim erat id lacus. Morbi nec lobortis mi, vel eleifend urna. Vivamus sed lacus sit amet dui consectetur elementum. Nulla facilisi. Praesent sollicitudin turpis turpis. Curabitur condimentum auctor quam vel gravida. Nullam condimentum eleifend lorem quis ultrices. Morbi ac lorem viverra, gravida ex sit amet, viverra nisi. Pellentesque massa mi, tristique in odio id, ornare pretium metus. Nunc imperdiet elementum est. Nunc dapibus, magna auctor rutrum posuere, ante ligula aliquet lacus, a mollis mauris elit id nibh. Duis pulvinar mauris vitae luctus fermentum.",
+      "activities": ["test1", "test2"],
+      "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
+    },
+    {
+      "id": 1,
+      "name": "Creativity and Aesthetics",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis pellentesque dignissim. Pellentesque euismod tortor in tellus aliquet, sed pulvinar enim tempor. Integer ultricies aliquet massa, quis tristique tortor commodo non. Etiam rhoncus lobortis sem. Quisque quis orci mattis, facilisis justo luctus, condimentum sem. Fusce quis mauris eget neque consectetur viverra. Nam tincidunt, ante sed consequat aliquet, sapien purus aliquam ante, varius aliquam lectus nunc sit amet lectus.",
+      "activities": ["test1", "test2"],
+      "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
+    },
+    {
+      "id": 2,
+      "name": "Math, Data and Computing",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed varius arcu, sed sodales diam. Phasellus fringilla laoreet justo. Sed pretium accumsan mollis. Vestibulum id fringilla neque. Aenean mi dolor, facilisis a nisl vitae, interdum tincidunt nisl. Fusce velit nisl, efficitur in erat non, tincidunt gravida libero. Cras quis velit quis diam congue sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec et justo massa. Praesent velit enim, efficitur sit amet quam nec, aliquam malesuada libero. Sed facilisis justo quis nisl eleifend feugiat. Pellentesque ornare ipsum lacus, et faucibus lacus viverra at. Ut imperdiet est non turpis hendrerit accumsan sit amet et nulla. Praesent quam erat, pharetra eget volutpat ut, elementum vitae sapien.",
+      "activities": ["test1", "test2"],
+      "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
+    },
+    {
+      "id": 3,
+      "name": "Technology and Realisation",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dignissim quam, ac eleifend nunc. Quisque convallis, ipsum ut placerat posuere, tellus tellus egestas eros, at posuere enim erat id lacus. Morbi nec lobortis mi, vel eleifend urna. Vivamus sed lacus sit amet dui consectetur elementum. Nulla facilisi. Praesent sollicitudin turpis turpis. Curabitur condimentum auctor quam vel gravida. Nullam condimentum eleifend lorem quis ultrices. Morbi ac lorem viverra, gravida ex sit amet, viverra nisi. Pellentesque massa mi, tristique in odio id, ornare pretium metus. Nunc imperdiet elementum est. Nunc dapibus, magna auctor rutrum posuere, ante ligula aliquet lacus, a mollis mauris elit id nibh. Duis pulvinar mauris vitae luctus fermentum.",
+      "activities": ["test1", "test2"],
+      "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
+    },
+    {
+      "id": 4,
+      "name": "User and Society",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dignissim quam, ac eleifend nunc. Quisque convallis, ipsum ut placerat posuere, tellus tellus egestas eros, at posuere enim erat id lacus. Morbi nec lobortis mi, vel eleifend urna. Vivamus sed lacus sit amet dui consectetur elementum. Nulla facilisi. Praesent sollicitudin turpis turpis. Curabitur condimentum auctor quam vel gravida. Nullam condimentum eleifend lorem quis ultrices. Morbi ac lorem viverra, gravida ex sit amet, viverra nisi. Pellentesque massa mi, tristique in odio id, ornare pretium metus. Nunc imperdiet elementum est. Nunc dapibus, magna auctor rutrum posuere, ante ligula aliquet lacus, a mollis mauris elit id nibh. Duis pulvinar mauris vitae luctus fermentum.",
+      "activities": ["test1", "test2"],
+      "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
+    },
+    {
+      "id": 5,
+      "name": "Professional Skills",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dignissim quam, ac eleifend nunc. Quisque convallis, ipsum ut placerat posuere, tellus tellus egestas eros, at posuere enim erat id lacus. Morbi nec lobortis mi, vel eleifend urna. Vivamus sed lacus sit amet dui consectetur elementum. Nulla facilisi. Praesent sollicitudin turpis turpis. Curabitur condimentum auctor quam vel gravida. Nullam condimentum eleifend lorem quis ultrices. Morbi ac lorem viverra, gravida ex sit amet, viverra nisi. Pellentesque massa mi, tristique in odio id, ornare pretium metus. Nunc imperdiet elementum est. Nunc dapibus, magna auctor rutrum posuere, ante ligula aliquet lacus, a mollis mauris elit id nibh. Duis pulvinar mauris vitae luctus fermentum.",
+      "activities": ["test1", "test2"],
+      "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
+    },
+    {
+      "id": 6,
+      "name": "Research and Design Processes",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dignissim quam, ac eleifend nunc. Quisque convallis, ipsum ut placerat posuere, tellus tellus egestas eros, at posuere enim erat id lacus. Morbi nec lobortis mi, vel eleifend urna. Vivamus sed lacus sit amet dui consectetur elementum. Nulla facilisi. Praesent sollicitudin turpis turpis. Curabitur condimentum auctor quam vel gravida. Nullam condimentum eleifend lorem quis ultrices. Morbi ac lorem viverra, gravida ex sit amet, viverra nisi. Pellentesque massa mi, tristique in odio id, ornare pretium metus. Nunc imperdiet elementum est. Nunc dapibus, magna auctor rutrum posuere, ante ligula aliquet lacus, a mollis mauris elit id nibh. Duis pulvinar mauris vitae luctus fermentum.",
+      "activities": ["test1", "test2"],
+      "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
+    },
+    {
+      "id": 7,
+      "name": "Professional Identity and Vision",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dignissim quam, ac eleifend nunc. Quisque convallis, ipsum ut placerat posuere, tellus tellus egestas eros, at posuere enim erat id lacus. Morbi nec lobortis mi, vel eleifend urna. Vivamus sed lacus sit amet dui consectetur elementum. Nulla facilisi. Praesent sollicitudin turpis turpis. Curabitur condimentum auctor quam vel gravida. Nullam condimentum eleifend lorem quis ultrices. Morbi ac lorem viverra, gravida ex sit amet, viverra nisi. Pellentesque massa mi, tristique in odio id, ornare pretium metus. Nunc imperdiet elementum est. Nunc dapibus, magna auctor rutrum posuere, ante ligula aliquet lacus, a mollis mauris elit id nibh. Duis pulvinar mauris vitae luctus fermentum.",
+      "activities": ["test1", "test2"],
+      "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
+    }
+  ]
+}
