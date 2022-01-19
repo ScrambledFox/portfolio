@@ -2,6 +2,7 @@ import React from 'react'
 import './ProjectInfo.css'
 import { Fade } from 'react-reveal'
 import ScrollContainer from 'react-indiana-drag-scroll'
+import ScrollFade from '@benestudioco/react-scrollfade'
 
 const ProjectInfo = (props) => {
   return (
@@ -42,6 +43,7 @@ const ProjectInfo = (props) => {
                   </li>
                 )
               })}
+              <span />
             </ScrollContainer>
           </div>
           <div className="modal-footer">

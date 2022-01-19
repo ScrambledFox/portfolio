@@ -34,7 +34,7 @@
       ],
       "stack": ["Unity3d", ".NET"],
       "logoheight": 40,
-      "colourPrimary": "linear-gradient(to bottom, #608000, #000)",
+      "colourPrimary": "linear-gradient(to bottom, #608000, #304000)",
       "colourSecondary": "#000"
     },
     {

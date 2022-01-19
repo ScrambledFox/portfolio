@@ -37,7 +37,7 @@
       "link": "/",
       "images": [],
       "description": "AtHome (Final Bachelor Project): Self-Directed Automation in Large IoT Environments for General Households. This project focused on bringing complex home automation to common households with the benifit of conflict resolution.",
-      "colour": "linear-gradient(to bottom, #112, #a89018)",
+      "colour": "linear-gradient(to bottom, #5e5007, #a89018)",
       "footnote": "",
       "languages": [
         { "name": "Jquery", "color": "rgb(241, 224, 90)" },
