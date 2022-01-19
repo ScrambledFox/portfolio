@@ -43,7 +43,7 @@
   text-align: center;
   align-items: center;
   height: calc(100vh + 63px);
-  z-index: 1000;
+  z-index: 10;
 }
 .greeting {
   margin: -63px 20px 0 20px;

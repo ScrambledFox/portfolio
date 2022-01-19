@@ -21,7 +21,7 @@ const About = () => {
               I'm an Industrial Designer and Full-Stack Software Engineer
               working on hardware and software solutions for social challenges
               by making use of emerging technologies such as Internet of Things,
-              Artificial Intelligence and decentralized computing.
+              Artificial Intelligence and decentralised computing.
             </p>
             <p>
               <span role="img" aria-label="lightning">
@@ -66,9 +66,9 @@ const About = () => {
                 smooth={true}
                 duration={500}
               >
-                projects{' '}
+                projects
               </Link>
-              worked at some{' '}
+              , worked at some{' '}
               <Link
                 className="textLink"
                 to="experience"

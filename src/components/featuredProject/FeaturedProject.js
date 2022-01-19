@@ -1,11 +1,12 @@
 import React from 'react'
 import './FeaturedProject.css'
 
-const FeaturedProject = ({ name, link, description, colour, languages }) => {
+const FeaturedProject = ({ projectData, selectProject }) => {
+  let { id, logo, name, link, description, colour, languages } = projectData
   return (
     <a
       className="featured-project-link"
-      href={link}
+      onClick={() => selectProject(projectData)}
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -20,10 +21,10 @@ const FeaturedProject = ({ name, link, description, colour, languages }) => {
           <div className="featured-project-top">
             <img
               className="featured-project-image"
-              src={require(`../../images/logos/${name
+              src={require(`../../images/logos/${logo
                 .replace(/ /g, '')
                 .toLowerCase()}.png`)}
-              alt={`${name}-logo`}
+              alt={`${logo}-logo`}
             />
           </div>
           <p>{description}</p>

@@ -2,10 +2,99 @@
   "featured_projects": [
     {
       "id": 0,
-      "name": "ICC",
+      "logo": "AtHome",
+      "name": "AtHome",
+      "link": "https://www.youtube.com/watch?v=e-oSAbQKnas",
+      "images": [],
+      "description": "AtHome (Final Bachelor Project): Self-Directed Automation in Large IoT Environments for General Households. This project focused on bringing complex home automation to common households with the benifit of conflict resolution.",
+      "colour": "linear-gradient(to bottom, #2CA305, #F52FDA)",
+      "footnote": "",
+      "languages": [{ "name": ".NET", "color": "rgb(241, 224, 90)" }]
+    },
+    {
+      "id": 1,
+      "logo": "HyparCollective",
+      "name": "Hypar Collective",
       "link": "/",
-      "description": "🌵 A responsive multi-page website made with wordpress for ease of updating & blog functionality. Used jQuery for custom animations and extension integration.",
-      "colour": "linear-gradient(to top, rgb(0, 122, 65),rgb(37, 207, 108))",
+      "images": [
+        "growthfront.jpg",
+        "growthmodule.jpg",
+        "growthmodule.jpg",
+        "growthmodule.jpg"
+      ],
+      "description": "AtHome (Final Bachelor Project): Self-Directed Automation in Large IoT Environments for General Households. This project focused on bringing complex home automation to common households with the benifit of conflict resolution.",
+      "colour": "linear-gradient(to bottom, #3f68ab, #954D75)",
+      "footnote": "Pictures by Bart van Overbeeke",
+      "languages": [
+        { "name": "Jquery", "color": "rgb(241, 224, 90)" },
+        { "name": "Wordpress", "color": "rgb(100, 219, 255)" }
+      ]
+    },
+    {
+      "id": 2,
+      "logo": "Gezontijd",
+      "name": "Gezontijd",
+      "link": "/",
+      "images": [],
+      "description": "AtHome (Final Bachelor Project): Self-Directed Automation in Large IoT Environments for General Households. This project focused on bringing complex home automation to common households with the benifit of conflict resolution.",
+      "colour": "linear-gradient(to bottom, #112, #a89018)",
+      "footnote": "",
+      "languages": [
+        { "name": "Jquery", "color": "rgb(241, 224, 90)" },
+        { "name": "Wordpress", "color": "rgb(100, 219, 255)" }
+      ]
+    },
+    {
+      "id": 3,
+      "logo": "Robowars",
+      "name": "Robowars",
+      "link": "/",
+      "images": [],
+      "description": "AtHome (Final Bachelor Project): Self-Directed Automation in Large IoT Environments for General Households. This project focused on bringing complex home automation to common households with the benifit of conflict resolution.",
+      "colour": "linear-gradient(to bottom, #bbb, #658098)",
+      "footnote": "",
+      "languages": [
+        { "name": "Jquery", "color": "rgb(241, 224, 90)" },
+        { "name": "Wordpress", "color": "rgb(100, 219, 255)" }
+      ]
+    },
+    {
+      "id": 4,
+      "logo": "NoDe",
+      "name": "NoDe: Nodule Detection",
+      "link": "/",
+      "images": [],
+      "description": "AtHome (Final Bachelor Project): Self-Directed Automation in Large IoT Environments for General Households. This project focused on bringing complex home automation to common households with the benifit of conflict resolution.",
+      "colour": "linear-gradient(to bottom, #bbb, #88f)",
+      "footnote": "",
+      "languages": [
+        { "name": "Jquery", "color": "rgb(241, 224, 90)" },
+        { "name": "Wordpress", "color": "rgb(100, 219, 255)" }
+      ]
+    },
+    {
+      "id": 5,
+      "logo": "James",
+      "name": "Games With James",
+      "link": "/",
+      "images": [],
+      "description": "AtHome (Final Bachelor Project): Self-Directed Automation in Large IoT Environments for General Households. This project focused on bringing complex home automation to common households with the benifit of conflict resolution.",
+      "colour": "linear-gradient(to bottom, #6EA689, #2CA305)",
+      "footnote": "",
+      "languages": [
+        { "name": "Jquery", "color": "rgb(241, 224, 90)" },
+        { "name": "Wordpress", "color": "rgb(100, 219, 255)" }
+      ]
+    },
+    {
+      "id": 6,
+      "logo": "bureaumoeilijkedingen",
+      "name": "Internship at Burea Moeilijke Dingen",
+      "link": "/",
+      "images": [],
+      "description": "AtHome (Final Bachelor Project): Self-Directed Automation in Large IoT Environments for General Households. This project focused on bringing complex home automation to common households with the benifit of conflict resolution.",
+      "colour": "linear-gradient(to bottom, #05A3A3, #F15A24)",
+      "footnote": "",
       "languages": [
         { "name": "Jquery", "color": "rgb(241, 224, 90)" },
         { "name": "Wordpress", "color": "rgb(100, 219, 255)" }

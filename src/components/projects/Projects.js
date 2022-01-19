@@ -8,6 +8,11 @@ import { featured_projects } from '../../data/featured_projects.json'
 import Project from '../project/Project'
 import Section from '../section/Section'
 import FeaturedProject from '../featuredProject/FeaturedProject'
+import ProjectInfo from '../projectInfo/ProjectInfo'
+import Modal from 'react-modal'
+import disableScroll from 'disable-scroll'
+
+import { LoremIpsum } from 'react-lorem-ipsum'
 
 const useStyles = makeStyles((theme) => ({
   moreProjects: {
@@ -81,6 +86,9 @@ const Projects = () => {
   const [githubProjects, setGithubProjects] = useState([])
   const [loadProjectsError, setLoadProjectsError] = useState(null)
 
+  const [selectedProject, setSelectedProject] = useState(null)
+  const [modalIsOpen, setIsModalOpen] = useState(false)
+
   const classes = useStyles()
 
   useEffect(() => {
@@ -100,21 +108,55 @@ const Projects = () => {
     }
   }
 
+  useEffect(() => {
+    if (selectedProject !== null) {
+      openModal()
+    }
+  }, [selectedProject])
+
+  const selectProject = (data) => {
+    setSelectedProject(data)
+  }
+
+  const openModal = () => {
+    setIsModalOpen(true)
+    disableScroll.on()
+  }
+  const afterOpenModal = () => {}
+  const closeModal = () => {
+    setIsModalOpen(false)
+    disableScroll.off()
+  }
+  const afterCloseModal = () => {
+    setSelectedProject(null)
+  }
+
   if (loadProjectsError === false) {
     return (
       <Section title="Projects">
+        <Modal
+          id="project-modal"
+          closeTimeoutMS={200}
+          isOpen={modalIsOpen}
+          onAfterOpen={afterOpenModal}
+          onAfterClose={afterCloseModal}
+          onRequestClose={closeModal}
+          className="modal-wrapper"
+          overlayClassName="overlay"
+          contentLabel="Project Modal"
+        >
+          <ProjectInfo close={() => closeModal()} data={selectedProject} />
+        </Modal>
+
         <div className="projects-content">
           <ul className="projects-list">
             {featured_projects.map((featuredProject) => {
               return (
                 <li key={`featured-project-${featuredProject.id}`}>
-                  <Fade bottom duration={1000} distance="20px">
+                  <Fade bottom duration={1000} distance="50px">
                     <FeaturedProject
-                      name={featuredProject.name}
-                      link={featuredProject.link}
-                      description={featuredProject.description}
-                      colour={featuredProject.colour}
-                      languages={featuredProject.languages}
+                      projectData={featuredProject}
+                      selectProject={selectProject}
                     />
                   </Fade>
                 </li>
@@ -124,7 +166,7 @@ const Projects = () => {
               if (githubProjects[repo].name) {
                 return (
                   <li key={githubProjects[repo].name}>
-                    <Fade bottom duration={1000} distance="20px">
+                    <Fade bottom duration={1000} distance="50px">
                       <Project project={githubProjects[repo]} type={'github'} />
                     </Fade>
                   </li>
@@ -134,7 +176,7 @@ const Projects = () => {
               }
             })}
           </ul>
-          <Fade bottom duration={1000} distance="20px">
+          <Fade bottom duration={1000} distance="50px">
             <div className="more-projects-wrapper">
               <a
                 className="project-link"
@@ -159,5 +201,7 @@ const Projects = () => {
     return null
   }
 }
+
+Modal.setAppElement('#root')
 
 export default Projects
