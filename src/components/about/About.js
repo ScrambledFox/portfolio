@@ -19,17 +19,16 @@ const About = () => {
                 ⚡
               </span>{' '}
               I'm an Industrial Designer and Full-Stack Software Engineer
-              working on hardware and software solutions for social challenges
-              by making use of emerging technologies such as Internet of Things,
-              Artificial Intelligence and decentralised computing.
+              working on social challenges by making use of emergant
+              technologies such as Internet of Things, Artificial Intelligence
+              and decentralised computing.
             </p>
             <p>
               <span role="img" aria-label="lightning">
                 ⚡
               </span>{' '}
-              You can find me working with Unity, C#, C++, .NET, JavaScript,
-              React and Node. Currently working with Internet of Things
-              applications running on MQTT and OOCSI.
+              I make custom software and hardware solutions for difficult design
+              challenges.
             </p>
             <div className="typewriter">
               <p className="typewriter-start">
@@ -78,7 +77,18 @@ const About = () => {
               >
                 amazing places
               </Link>
-              , and worked with some great people.
+              , and worked with some great people. But I'm still not done - I've
+              planned some great stuff for the{' '}
+              <Link
+                className="textLink"
+                to="future"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                future
+              </Link>
+              .
             </p>
             <div className="location-wrapper">
               <svg

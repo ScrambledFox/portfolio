@@ -15,7 +15,7 @@
   min-height: 158px;
   transition: 0.2s;
   height: 100%;
-  cursor: pointer;
+  cursor: default;
 }
 .competency-wrapper:hover .competency {
   transform: translateY(-10px);
@@ -43,14 +43,14 @@
 .competency-bottom {
   position: relative;
   box-sizing: border-box;
-  text-align: center;
+  text-align: justify;
   width: 100%;
   height: calc(100% - 150px);
   color: #fff;
   padding: 65px 20px 20px 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: top;
 }
 .competency-bottom h2 {
   margin: 0;

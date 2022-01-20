@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './Home.css'
-import Fade from 'react-reveal/Fade'
-import { Bounce } from 'react-reveal'
+import { Fade, Bounce, Zoom } from 'react-reveal'
 import { Link } from 'react-scroll'
 import Particles from 'react-particles-js'
 import Typewriter from 'typewriter-effect'
@@ -38,8 +37,8 @@ const Home = () => {
                 options={{
                   strings: [
                     'Industrial Designer',
-                    'Full-Stack Software Engineer',
                     'Designing with emergent technologies',
+                    'Full-Stack Software Engineer',
                   ],
                   autoStart: true,
                   loop: true,

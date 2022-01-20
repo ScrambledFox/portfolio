@@ -3,28 +3,28 @@
     {
       "id": 0,
       "skillName": "Business and Entrepreneurship",
-      "amount": "95"
+      "amount": "80"
     },
     {
       "id": 1,
       "skillName": "Creativity and Aesthetics",
-      "amount": "90"
+      "amount": "70"
     },
     {
       "id": 2,
       "skillName": "Math, Data and Computing",
-      "amount": "90"
+      "amount": "80"
     },
-    { "id": 3, "skillName": "Technology and Realisation", "amount": "85" },
+    { "id": 3, "skillName": "Technology and Realisation", "amount": "90" },
     {
       "id": 4,
       "skillName": "User and Society",
-      "amount": "80"
+      "amount": "70"
     },
     {
       "id": 5,
       "skillName": "Design and Research Processes",
-      "amount": "75"
+      "amount": "70"
     }
   ]
 }

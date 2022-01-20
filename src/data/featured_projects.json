@@ -5,11 +5,19 @@
       "logo": "AtHome",
       "name": "AtHome",
       "link": "https://www.youtube.com/watch?v=e-oSAbQKnas",
-      "images": [],
+      "images": ["athomebubble.png", "athomeconfig.png", "athomeconflict.png"],
       "description": "AtHome (Final Bachelor Project): Self-Directed Automation in Large IoT Environments for General Households. This project focused on bringing complex home automation to common households with the benifit of conflict resolution.",
-      "colour": "linear-gradient(to bottom, #2CA305, #F52FDA)",
+      "text": [
+        "AtHome focused on managing smart home environments and resolving social smart device and Internet of Things conflicts in the general household environment. By using crowd-sourced configurations as templates that are simulated, scored and automatically applied to home environments, the homeowners don’t have to configure every device in their home themselves. Users are able to create configurations by using an easy to use visual programming interface, giving them access to simple tools that can create complex automation behaviour."
+      ],
+      "colour": "linear-gradient(to bottom, #cd7df5, #A623E8)",
       "footnote": "",
-      "languages": [{ "name": ".NET", "color": "rgb(241, 224, 90)" }]
+      "languages": [
+        { "name": "Unity", "color": "#fff" },
+        { "name": ".NET", "color": "#33f" },
+        { "name": "C#", "color": "#2af" },
+        { "name": "node.js", "color": "#8c0" }
+      ]
     },
     {
       "id": 1,
@@ -19,15 +27,21 @@
       "images": [
         "growthfront.jpg",
         "growthmodule.jpg",
-        "growthmodule.jpg",
-        "growthmodule.jpg"
+        "Credit-Gabriel-Khiterer-1024x683.jpg",
+        "hyparcollectivecode.png"
       ],
-      "description": "AtHome (Final Bachelor Project): Self-Directed Automation in Large IoT Environments for General Households. This project focused on bringing complex home automation to common households with the benifit of conflict resolution.",
+      "description": "Hypar Collective is a Eindhoven based foundation that creates interactive light installations with custom tailored experiences.",
+      "text": [
+        "Hypar Collective is a foundation based in Eindhoven that evolved from IGNITE, a student team at the TU Eindhoven. We create interactive light installations that make people part of the experience. By utilising a modular concept for the installation parts, we ensure that we can create a custom experience for any event and do not have to reinvent every installation. We craft custom experiences specific to each event with its own sound, interactivity and light experience.",
+        "At Hypar Collective, I work on managing and creating custom software and hardware solutions that drive the light and sound experience in new innovative ways."
+      ],
       "colour": "linear-gradient(to bottom, #3f68ab, #954D75)",
-      "footnote": "Pictures by Bart van Overbeeke",
+      "footnote": "Left two pictures by Bart van Overbeeke. Third picture by Gabriel Khiterer.",
       "languages": [
-        { "name": "Jquery", "color": "rgb(241, 224, 90)" },
-        { "name": "Wordpress", "color": "rgb(100, 219, 255)" }
+        { "name": ".NET", "color": "rgb(100, 219, 255)" },
+        { "name": "C#", "color": "#2af" },
+        { "name": "React.js", "color": "rgb(241, 224, 90)" },
+        { "name": "Node.js", "color": "#8c0" }
       ]
     },
     {
@@ -35,41 +49,55 @@
       "logo": "Gezontijd",
       "name": "Gezontijd",
       "link": "/",
-      "images": [],
-      "description": "AtHome (Final Bachelor Project): Self-Directed Automation in Large IoT Environments for General Households. This project focused on bringing complex home automation to common households with the benifit of conflict resolution.",
+      "images": [
+        "gezontijdusertesting.png",
+        "gezontijdlogo.png",
+        "gezontijdclock.jpg"
+      ],
+      "description": "To aid people with dementia and their caretakers, Gezontijd gives better insight in the time of day.",
+      "text": [
+        "Gezontijd is a clock that shows the current time, date and visualises the time of day by showing it in an intuitive way to help people with dementia and their caretakers as a common problem is loss of context and time. The clock visualised the time of day using visual images of a sun and moon going through the sky and visualised the current season by showing a tree where the state of the leaves represented the current season."
+      ],
       "colour": "linear-gradient(to bottom, #5e5007, #a89018)",
       "footnote": "",
-      "languages": [
-        { "name": "Jquery", "color": "rgb(241, 224, 90)" },
-        { "name": "Wordpress", "color": "rgb(100, 219, 255)" }
-      ]
+      "languages": [{ "name": "C++", "color": "#c00" }]
     },
     {
       "id": 3,
       "logo": "Robowars",
       "name": "Robowars",
       "link": "/",
-      "images": [],
-      "description": "AtHome (Final Bachelor Project): Self-Directed Automation in Large IoT Environments for General Households. This project focused on bringing complex home automation to common households with the benifit of conflict resolution.",
+      "images": [
+        "robowarssponsors.jpg",
+        "robowarslogoround.png",
+        "robowarsflyer.png"
+      ],
+      "description": "A Robowars event at the TU Eindhoven that provided students to learn more about electronics and programming.",
+      "text": [
+        "This event was planned by the Robowars committee provided students with more opportunities to learn more about programming and electronics by providing all resources needed. Students needed to tackle several challenges that got higher in difficulty each time, giving a clear direction to the students, while helping them along the way.",
+        "I joined the committee because of my interests in programming and electronics, however wanted to learn more about creating promotional materials. As the promotion officer of Robowars, I was tasked with promoting the event and creating visual promotional content."
+      ],
       "colour": "linear-gradient(to bottom, #bbb, #658098)",
       "footnote": "",
-      "languages": [
-        { "name": "Jquery", "color": "rgb(241, 224, 90)" },
-        { "name": "Wordpress", "color": "rgb(100, 219, 255)" }
-      ]
+      "languages": []
     },
     {
       "id": 4,
       "logo": "NoDe",
       "name": "NoDe: Nodule Detection",
       "link": "/",
-      "images": [],
-      "description": "AtHome (Final Bachelor Project): Self-Directed Automation in Large IoT Environments for General Households. This project focused on bringing complex home automation to common households with the benifit of conflict resolution.",
+      "images": ["nodefront.png", "nodephone.png"],
+      "description": "The Nodule Detection (NoDe) project gamified medical scans to crowd-source cancer nodules found in lungs.",
+      "text": [
+        "In collaboration with the Medical Image Analysis Group of Eindhoven, this project looked to make a successful interface for the annotation of medical images. Using the tool crowdsourcing to annotate images of lungs and therefore, provide training data for a machine-learning algorithm. The application that was made is a game called NoDe which translates the actions of the user to data for the algorithm. NoDe provides not only a fun game but is also educational, simplistic and guiding. Therefore, crowdsourcers with or without prior medical expertise will be able to play this game."
+      ],
       "colour": "linear-gradient(to bottom, #bbb, #88f)",
       "footnote": "",
       "languages": [
-        { "name": "Jquery", "color": "rgb(241, 224, 90)" },
-        { "name": "Wordpress", "color": "rgb(100, 219, 255)" }
+        { "name": "Unity", "color": "#fff" },
+        { "name": ".NET", "color": "#33f" },
+        { "name": "C#", "color": "#2af" },
+        { "name": "Python", "color": "#3f3" }
       ]
     },
     {
@@ -77,27 +105,40 @@
       "logo": "James",
       "name": "Games With James",
       "link": "/",
-      "images": [],
-      "description": "AtHome (Final Bachelor Project): Self-Directed Automation in Large IoT Environments for General Households. This project focused on bringing complex home automation to common households with the benifit of conflict resolution.",
+      "images": ["james.png", "jamescode.png"],
+      "description": "Games with James is an online gaming platform created for the Lucid Study Association at the TU Eindhoven to provide students with a social platform during the COVID pandemic.",
+      "text": [
+        "Games with James is an online gaming platform created for the Lucid Study Association at the TU Eindhoven to provide students with a social platform during the COVID pandemic by the Difficult Things Committee. The platform had multiple games students could play together and provided a way for students to create their own pub quizzes on the website.",
+        "During the development of Games with James, I was mostly focused on the back-end API and networking side of the application to provide the website with its multiplayer capabilities."
+      ],
       "colour": "linear-gradient(to bottom, #6EA689, #2CA305)",
       "footnote": "",
       "languages": [
-        { "name": "Jquery", "color": "rgb(241, 224, 90)" },
-        { "name": "Wordpress", "color": "rgb(100, 219, 255)" }
+        { "name": ".NET", "color": "rgb(100, 219, 255)" },
+        { "name": "C#", "color": "#2af" },
+        { "name": "React.js", "color": "rgb(241, 224, 90)" },
+        { "name": "Node.js", "color": "#8c0" }
       ]
     },
     {
       "id": 6,
       "logo": "bureaumoeilijkedingen",
-      "name": "Internship at Burea Moeilijke Dingen",
+      "name": "Internship at Bureau Moeilijke Dingen",
       "link": "/",
       "images": [],
-      "description": "AtHome (Final Bachelor Project): Self-Directed Automation in Large IoT Environments for General Households. This project focused on bringing complex home automation to common households with the benifit of conflict resolution.",
+      "description": "At my Internship at Bureau Moeilijke Dingen, I focused on creating a phyiscal interface that could interact with the digital information layer in Internet of Things environments.",
+      "text": [
+        "At my internship at Bureau Moeilijke Dingen, I worked as an Industrial Designer and Full-Stack Engineer to design applications for an Internet of Things environment. I worked on a physical interface device with which the user could interact with the digital information layer.",
+        "In this project, I designed and created the internal hardware electronics and software as well as the outside casing to deliver a high-fidelity prototype which served as a great concept design for future projects."
+      ],
       "colour": "linear-gradient(to bottom, #05A3A3, #F15A24)",
       "footnote": "",
       "languages": [
-        { "name": "Jquery", "color": "rgb(241, 224, 90)" },
-        { "name": "Wordpress", "color": "rgb(100, 219, 255)" }
+        { "name": ".NET", "color": "rgb(100, 219, 255)" },
+        { "name": "C#", "color": "#2af" },
+        { "name": "React.js", "color": "rgb(241, 224, 90)" },
+        { "name": "Node.js", "color": "#8c0" },
+        { "name": "C++", "color": "#c00" }
       ]
     }
   ]

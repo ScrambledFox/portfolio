@@ -22,13 +22,16 @@ const ProjectInfo = (props) => {
           </div>
           <div className="modal-content">
             <div className="modal-about">
-              <p>{props.data.description}</p>
+              {props.data.text.map((text) => (
+                <p>{text}</p>
+              ))}
             </div>
-            <ScrollContainer
+            {/* <ScrollContainer
               className="project-images"
               vertical={true}
               horizontal={false}
-            >
+            > */}
+            <div className="project-images">
               {props.data.images.map((image) => {
                 return (
                   <li key={`image-${image}`}>
@@ -43,8 +46,8 @@ const ProjectInfo = (props) => {
                   </li>
                 )
               })}
-              <span />
-            </ScrollContainer>
+            </div>
+            {/* </ScrollContainer> */}
           </div>
           <div className="modal-footer">
             <p>{props.data.footnote}</p>

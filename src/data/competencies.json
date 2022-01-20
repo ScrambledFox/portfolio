@@ -2,57 +2,133 @@
   "competencies": [
     {
       "id": 0,
-      "name": "Business and Entrepreneurship",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dignissim quam, ac eleifend nunc. Quisque convallis, ipsum ut placerat posuere, tellus tellus egestas eros, at posuere enim erat id lacus. Morbi nec lobortis mi, vel eleifend urna. Vivamus sed lacus sit amet dui consectetur elementum. Nulla facilisi. Praesent sollicitudin turpis turpis. Curabitur condimentum auctor quam vel gravida. Nullam condimentum eleifend lorem quis ultrices. Morbi ac lorem viverra, gravida ex sit amet, viverra nisi. Pellentesque massa mi, tristique in odio id, ornare pretium metus. Nunc imperdiet elementum est. Nunc dapibus, magna auctor rutrum posuere, ante ligula aliquet lacus, a mollis mauris elit id nibh. Duis pulvinar mauris vitae luctus fermentum.",
-      "activities": ["test1", "test2"],
+      "name": "Overall Growth",
+      "description": [
+        "When I look back at who I was and what I could do at the start of the bachelor’s program, I’m amazed at the overall growth I went through over the years. Coming from secondary school, I was very reserved and always disappointed with my skills when looking at others, while that mostly wasn’t the case. However, over the years I have found and honed my own strengths and skills to be able to provide my unique skill set and value that I use to tackle design challenges."
+      ],
+      "activities": [],
       "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
     },
     {
       "id": 1,
-      "name": "Creativity and Aesthetics",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis pellentesque dignissim. Pellentesque euismod tortor in tellus aliquet, sed pulvinar enim tempor. Integer ultricies aliquet massa, quis tristique tortor commodo non. Etiam rhoncus lobortis sem. Quisque quis orci mattis, facilisis justo luctus, condimentum sem. Fusce quis mauris eget neque consectetur viverra. Nam tincidunt, ante sed consequat aliquet, sapien purus aliquam ante, varius aliquam lectus nunc sit amet lectus.",
-      "activities": ["test1", "test2"],
+      "name": "Business and Entrepreneurship",
+      "description": [
+        "Previously, I saw Business and Entrepreneurship as the enabler of any project as it decides if the design would be financially viable. It helps me identify successfully current trends and user needs in products of other companies. Coming from secondary school, I already had a good start with - and interest in - economics. However, during my bachelor, I have learnt much more about modelling businesses, analysing companies.",
+        "Within my projects at the Hypar Collective foundation, I not only focused on creating software, but I was also part of shaping our business. By identifying client needs we could better position ourselves to provide what our clients wanted and in turn, reshape the software to fit the clients’ needs. During the Design Innovation Methods course, I created an analysis of the market position of Hypar Collective and how we could extend our business model.",
+        "With our research project for Inalfa, we created a user-fit and business-viable application for the companies base product. By looking at current trends in technology in the automotive industry, we enhanced the design by building new functionality on top.",
+        "The Design Management course I took in my first year quickly taught me how to adapt a user-fit design to a viable and sellable product that is relevant to all stakeholders. Here, I learnt how to use the business model canvas and how to organise a design team. My USE track, Technology Entrepreneurship, certainly helped me reach a good level with business understanding, company and culture mapping and applying this theory in real scenarios."
+      ],
+      "activities": [
+        "Hypar Collective",
+        "Design Innovation Methods",
+        "Robowars",
+        "Design Management",
+        "Technology Entrepreneurship (USE)",
+        "Inalfa"
+      ],
       "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
     },
     {
       "id": 2,
-      "name": "Math, Data and Computing",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed varius arcu, sed sodales diam. Phasellus fringilla laoreet justo. Sed pretium accumsan mollis. Vestibulum id fringilla neque. Aenean mi dolor, facilisis a nisl vitae, interdum tincidunt nisl. Fusce velit nisl, efficitur in erat non, tincidunt gravida libero. Cras quis velit quis diam congue sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec et justo massa. Praesent velit enim, efficitur sit amet quam nec, aliquam malesuada libero. Sed facilisis justo quis nisl eleifend feugiat. Pellentesque ornare ipsum lacus, et faucibus lacus viverra at. Ut imperdiet est non turpis hendrerit accumsan sit amet et nulla. Praesent quam erat, pharetra eget volutpat ut, elementum vitae sapien.",
-      "activities": ["test1", "test2"],
+      "name": "Creativity and Aesthetics",
+      "description": [
+        "The aesthetics of a product is tightly linked to business and technology, as a house style and design values are the first thing users will see. A good example of this would be Apple. At the start of my bachelor, I knew I was lacking in this area. So, I sought to do more in this regard.",
+        "For my USE courses, Engineering Design and the Robowars committee, I opted to create the visual representation and style instead of doing programming or hardware work, as I knew there would be many more opportunities for me in that area. I have learnt to use many programs from the Adobe Suite, including Photoshop, Illustrator, InDesign, Premiére, After Effects, Animate, Character Creator and XD. For these activities, I focused on creating logo’s, house styles and animations to create visual representations.",
+        "During the last few years, I started working more with rich interaction and multi-modality in my products as this is a very important aspect and useful design tool to use. Most notably during my internship, where I started designing with haptic feedback as the main interaction with the information. During my FPB, I looked at how to include auditory and haptic feedback to better convey emotions to influence user decisions."
+      ],
+      "activities": [
+        "Robowars",
+        "Internship (BMD)",
+        "Engineering Design",
+        "Technology Entrepreneurship (USE)",
+        "AtHome"
+      ],
       "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
     },
     {
       "id": 3,
-      "name": "Technology and Realisation",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dignissim quam, ac eleifend nunc. Quisque convallis, ipsum ut placerat posuere, tellus tellus egestas eros, at posuere enim erat id lacus. Morbi nec lobortis mi, vel eleifend urna. Vivamus sed lacus sit amet dui consectetur elementum. Nulla facilisi. Praesent sollicitudin turpis turpis. Curabitur condimentum auctor quam vel gravida. Nullam condimentum eleifend lorem quis ultrices. Morbi ac lorem viverra, gravida ex sit amet, viverra nisi. Pellentesque massa mi, tristique in odio id, ornare pretium metus. Nunc imperdiet elementum est. Nunc dapibus, magna auctor rutrum posuere, ante ligula aliquet lacus, a mollis mauris elit id nibh. Duis pulvinar mauris vitae luctus fermentum.",
-      "activities": ["test1", "test2"],
+      "name": "Math, Data and Computing",
+      "description": [
+        "With my background in game design and development, I had experience with algorithms before, especially pathfinding. Next to this, this previous experience has helped me develop more in translating real-world scenarios to a digital system which can then be simulated or used as prototypes.",
+        "The NoDe project gave me much insight into how to handle large datasets and how to use algorithms to create new value. In this project, crowdsourced user data was analysed and could be used to detect health risks in medical scans.",
+        "At Hypar Collective - the hypar installation needed to have in real-time generated animations that would be projected on the individual LEDs. For this, I created software to handle a lot of data in quick ways as the installation contained 19200 LEDs and would need to change 40 times per second.",
+        "These activities have taught me how data and algorithms can be applied to products and add value to the experience."
+      ],
+      "activities": [
+        "NoDe",
+        "Hypar Collective",
+        "Intelligent Interactive Products",
+        "Data Analytics",
+        "Making Sense of Sensors"
+      ],
       "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
     },
     {
       "id": 4,
-      "name": "User and Society",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dignissim quam, ac eleifend nunc. Quisque convallis, ipsum ut placerat posuere, tellus tellus egestas eros, at posuere enim erat id lacus. Morbi nec lobortis mi, vel eleifend urna. Vivamus sed lacus sit amet dui consectetur elementum. Nulla facilisi. Praesent sollicitudin turpis turpis. Curabitur condimentum auctor quam vel gravida. Nullam condimentum eleifend lorem quis ultrices. Morbi ac lorem viverra, gravida ex sit amet, viverra nisi. Pellentesque massa mi, tristique in odio id, ornare pretium metus. Nunc imperdiet elementum est. Nunc dapibus, magna auctor rutrum posuere, ante ligula aliquet lacus, a mollis mauris elit id nibh. Duis pulvinar mauris vitae luctus fermentum.",
-      "activities": ["test1", "test2"],
+      "name": "Technology and Realisation",
+      "description": [
+        "Technology and Realisation is my main expertise, as I see it as a way to quickly prototype my designs, which most of them contain software or hardware. I had previously done some programming in secondary school, but during my bachelor, I learnt a lot more.",
+        "The Difficult Things committee really gave me a platform to learn from as I had knowledge about the individual programming languages but didn’t have a lot of experience in creating meaningful software applications. Here, I learnt a lot about back-end programming and how it could be applied to design challenges.",
+        "During my internship, I learnt a lot about the realisation part of the design process. I created prototypes by designing and 3d printing the casing of my design. I built hardware PCB’s for my prototypes and learnt a lot about designing the inside and outside of smart products. I also worked on front-end applications.",
+        "Currently, I work as a full-stack software engineer at byFlow and it helps me gain experience in working in the context of a company. With my experience and expertise in T&R, I feel that can provide good and unique value to a company."
+      ],
+      "activities": [
+        "NoDe",
+        "Difficult Things",
+        "Hypar Collective",
+        "Creative Apps",
+        "Creative Electronics",
+        "Creative Programming",
+        "Design Research",
+        "Creative Mechanical Engineering",
+        "Internship (BMD)"
+      ],
       "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
     },
     {
       "id": 5,
-      "name": "Professional Skills",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dignissim quam, ac eleifend nunc. Quisque convallis, ipsum ut placerat posuere, tellus tellus egestas eros, at posuere enim erat id lacus. Morbi nec lobortis mi, vel eleifend urna. Vivamus sed lacus sit amet dui consectetur elementum. Nulla facilisi. Praesent sollicitudin turpis turpis. Curabitur condimentum auctor quam vel gravida. Nullam condimentum eleifend lorem quis ultrices. Morbi ac lorem viverra, gravida ex sit amet, viverra nisi. Pellentesque massa mi, tristique in odio id, ornare pretium metus. Nunc imperdiet elementum est. Nunc dapibus, magna auctor rutrum posuere, ante ligula aliquet lacus, a mollis mauris elit id nibh. Duis pulvinar mauris vitae luctus fermentum.",
-      "activities": ["test1", "test2"],
+      "name": "User and Society",
+      "description": [
+        "I have always created my project with the user in mind, as it would otherwise not be as useful as it could be. During my research project for Inalfa, I had learnt how to identify user needs by qualitative and quantitive research and how to correctly design user studies.",
+        "During my internship, as a side project, we needed a fair way to decide who did the dishes. As Bureau Moeilijke Dingen has a casual and fun atmosphere, I build a hot potato style game where you needed to diffuse a bomb, if it exploded you needed to do the dishes. By combining the companies main interests, being technology and programming, with the atmosphere, a great design was made that is still being used today.",
+        "I have developed my vision with user and society as the main focus in mind as I now aim to create value for the users without inducing negative effects like stress. I hope to do more projects which allow me to gain more experience in this aspect."
+      ],
+      "activities": [
+        "Internship (BMD)",
+        "Hypar Collective",
+        "AtHome",
+        "User-Centred Design",
+        "Inalfa Roof",
+        "Technology Entrepreneurship (USE)"
+      ],
       "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
     },
     {
       "id": 6,
-      "name": "Research and Design Processes",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dignissim quam, ac eleifend nunc. Quisque convallis, ipsum ut placerat posuere, tellus tellus egestas eros, at posuere enim erat id lacus. Morbi nec lobortis mi, vel eleifend urna. Vivamus sed lacus sit amet dui consectetur elementum. Nulla facilisi. Praesent sollicitudin turpis turpis. Curabitur condimentum auctor quam vel gravida. Nullam condimentum eleifend lorem quis ultrices. Morbi ac lorem viverra, gravida ex sit amet, viverra nisi. Pellentesque massa mi, tristique in odio id, ornare pretium metus. Nunc imperdiet elementum est. Nunc dapibus, magna auctor rutrum posuere, ante ligula aliquet lacus, a mollis mauris elit id nibh. Duis pulvinar mauris vitae luctus fermentum.",
+      "name": "Professional Skills",
+      "description": [
+        "I have learnt much about how to communicate and collaborate during my internship, on the Robowars and Difficult Things committees and at byFlow. Currently, at Hypar Collective, we work together on large collaborative projects with a team of eleven people with varying skill sets. These projects require clear communication and I learnt a lot about how to correctly communicate in large design teams with varying plannings. At byFlow, I work with another Industrial Designer to run, plan and organise our own project, requiring communication and collaboration in a professional context."
+      ],
       "activities": ["test1", "test2"],
       "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
     },
     {
       "id": 7,
+      "name": "Research and Design Processes",
+      "description": [
+        "I have learnt many design methodologies over the course of my bachelor and am now able to determine and apply design theories specific to each project. I started out my bachelor by only relying on methodologies to make choices and come to conclusions. However, now I am more confident in making some choices based on intuition or experience, which leads to a smoother and more accurate design process.",
+        "During my ID project and at byFlow, I had much experience managing or leading the design process and making use of iterations and sprints. My internship and FBP also provided a lot of experience in individual design projects."
+      ],
+      "activities": ["test1", "test2"],
+      "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
+    },
+    {
+      "id": 8,
       "name": "Professional Identity and Vision",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dignissim quam, ac eleifend nunc. Quisque convallis, ipsum ut placerat posuere, tellus tellus egestas eros, at posuere enim erat id lacus. Morbi nec lobortis mi, vel eleifend urna. Vivamus sed lacus sit amet dui consectetur elementum. Nulla facilisi. Praesent sollicitudin turpis turpis. Curabitur condimentum auctor quam vel gravida. Nullam condimentum eleifend lorem quis ultrices. Morbi ac lorem viverra, gravida ex sit amet, viverra nisi. Pellentesque massa mi, tristique in odio id, ornare pretium metus. Nunc imperdiet elementum est. Nunc dapibus, magna auctor rutrum posuere, ante ligula aliquet lacus, a mollis mauris elit id nibh. Duis pulvinar mauris vitae luctus fermentum.",
+      "description": [
+        "My first identity was heavily focused on programming and a drive to create. Now, it has transformed to instead use the technical skills I have acquired as a tool to create better designs.",
+        "My vision has matured from a fix-it-all attitude to a more focused future vision. With my initial visions, I tried to tackle as many current problems as possible, but now I see that a single focus can create a better solution."
+      ],
       "activities": ["test1", "test2"],
       "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
     }

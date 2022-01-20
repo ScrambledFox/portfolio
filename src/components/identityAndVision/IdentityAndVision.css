@@ -38,6 +38,8 @@
 .id-text {
   width: 100%;
   max-width: 600px;
+
+  text-align: justify;
 }
 .id-profile {
   margin: 50px;

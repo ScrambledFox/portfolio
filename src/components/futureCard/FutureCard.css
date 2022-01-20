@@ -1,0 +1,30 @@
+.future-card-wrapper {
+  height: 100%;
+  transition: 0.2s;
+}
+.future-card {
+  position: relative;
+  background-color: #3b4353;
+  border-radius: 5px;
+  align-items: center;
+
+  height: 100%;
+  min-height: 200px;
+
+  transition: 0.2s;
+  cursor: default;
+}
+.future-card-wrapper:hover .future-card {
+  transform: translateY(-10px);
+  background-color: #474f63;
+}
+.future-card-content {
+  margin: 20px;
+  padding: 10px;
+}
+.future-text {
+  text-align: justify;
+}
+.future-text > h2 {
+  text-align: center;
+}

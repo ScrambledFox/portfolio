@@ -12,8 +12,6 @@ import ProjectInfo from '../projectInfo/ProjectInfo'
 import Modal from 'react-modal'
 import disableScroll from 'disable-scroll'
 
-import { LoremIpsum } from 'react-lorem-ipsum'
-
 const useStyles = makeStyles((theme) => ({
   moreProjects: {
     '&': {
@@ -47,12 +45,7 @@ const client = new ApolloClient({
 
 const queryInfo = {
   owner: 'scrambledfox',
-  repositories: [
-    'Euro-Truck-Simulator-Roof-Link',
-    'icc',
-    'oocsi-csharp',
-    'portfolio',
-  ],
+  repositories: ['Euro-Truck-Simulator-Roof-Link', 'icc', 'portfolio'],
 }
 
 const query = gql`
@@ -122,11 +115,14 @@ const Projects = () => {
     setIsModalOpen(true)
     disableScroll.on()
   }
+
   const afterOpenModal = () => {}
+
   const closeModal = () => {
     setIsModalOpen(false)
     disableScroll.off()
   }
+
   const afterCloseModal = () => {
     setSelectedProject(null)
   }
@@ -162,7 +158,7 @@ const Projects = () => {
                 </li>
               )
             })}
-            {Object.keys(githubProjects).map((repo) => {
+            {/* {Object.keys(githubProjects).map((repo) => {
               if (githubProjects[repo].name) {
                 return (
                   <li key={githubProjects[repo].name}>
@@ -174,7 +170,7 @@ const Projects = () => {
               } else {
                 return null
               }
-            })}
+            })} */}
           </ul>
           <Fade bottom duration={1000} distance="50px">
             <div className="more-projects-wrapper">
