@@ -109,7 +109,15 @@
       "description": [
         "I have learnt much about how to communicate and collaborate during my internship, on the Robowars and Difficult Things committees and at byFlow. Currently, at Hypar Collective, we work together on large collaborative projects with a team of eleven people with varying skill sets. These projects require clear communication and I learnt a lot about how to correctly communicate in large design teams with varying plannings. At byFlow, I work with another Industrial Designer to run, plan and organise our own project, requiring communication and collaboration in a professional context."
       ],
-      "activities": ["test1", "test2"],
+      "activities": [
+        "Inalfa",
+        "Internship",
+        "ByFlow",
+        "RoboWars",
+        "Difficult Things",
+        "Hypar Collective",
+        "Communcation Development"
+      ],
       "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
     },
     {
@@ -119,7 +127,11 @@
         "I have learnt many design methodologies over the course of my bachelor and am now able to determine and apply design theories specific to each project. I started out my bachelor by only relying on methodologies to make choices and come to conclusions. However, now I am more confident in making some choices based on intuition or experience, which leads to a smoother and more accurate design process.",
         "During my ID project and at byFlow, I had much experience managing or leading the design process and making use of iterations and sprints. My internship and FBP also provided a lot of experience in individual design projects."
       ],
-      "activities": ["test1", "test2"],
+      "activities": [
+        "byFlow",
+        "Research Design",
+        "Dealing with Scienctific Information"
+      ],
       "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
     },
     {
@@ -129,7 +141,7 @@
         "My first identity was heavily focused on programming and a drive to create. Now, it has transformed to instead use the technical skills I have acquired as a tool to create better designs.",
         "My vision has matured from a fix-it-all attitude to a more focused future vision. With my initial visions, I tried to tackle as many current problems as possible, but now I see that a single focus can create a better solution."
       ],
-      "activities": ["test1", "test2"],
+      "activities": [],
       "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)"
     }
   ]

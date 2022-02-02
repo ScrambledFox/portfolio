@@ -127,38 +127,38 @@ const Projects = () => {
     setSelectedProject(null)
   }
 
-  if (loadProjectsError === false) {
-    return (
-      <Section title="Projects">
-        <Modal
-          id="project-modal"
-          closeTimeoutMS={200}
-          isOpen={modalIsOpen}
-          onAfterOpen={afterOpenModal}
-          onAfterClose={afterCloseModal}
-          onRequestClose={closeModal}
-          className="modal-wrapper"
-          overlayClassName="overlay"
-          contentLabel="Project Modal"
-        >
-          <ProjectInfo close={() => closeModal()} data={selectedProject} />
-        </Modal>
+  // if (loadProjectsError === false) {
+  return (
+    <Section title="Projects">
+      <Modal
+        id="project-modal"
+        closeTimeoutMS={200}
+        isOpen={modalIsOpen}
+        onAfterOpen={afterOpenModal}
+        onAfterClose={afterCloseModal}
+        onRequestClose={closeModal}
+        className="modal-wrapper"
+        overlayClassName="overlay"
+        contentLabel="Project Modal"
+      >
+        <ProjectInfo close={() => closeModal()} data={selectedProject} />
+      </Modal>
 
-        <div className="projects-content">
-          <ul className="projects-list">
-            {featured_projects.map((featuredProject) => {
-              return (
-                <li key={`featured-project-${featuredProject.id}`}>
-                  <Fade bottom duration={1000} distance="50px">
-                    <FeaturedProject
-                      projectData={featuredProject}
-                      selectProject={selectProject}
-                    />
-                  </Fade>
-                </li>
-              )
-            })}
-            {/* {Object.keys(githubProjects).map((repo) => {
+      <div className="projects-content">
+        <ul className="projects-list">
+          {featured_projects.map((featuredProject) => {
+            return (
+              <li key={`featured-project-${featuredProject.id}`}>
+                <Fade bottom duration={1000} distance="50px">
+                  <FeaturedProject
+                    projectData={featuredProject}
+                    selectProject={selectProject}
+                  />
+                </Fade>
+              </li>
+            )
+          })}
+          {/* {Object.keys(githubProjects).map((repo) => {
               if (githubProjects[repo].name) {
                 return (
                   <li key={githubProjects[repo].name}>
@@ -171,31 +171,31 @@ const Projects = () => {
                 return null
               }
             })} */}
-          </ul>
-          <Fade bottom duration={1000} distance="50px">
-            <div className="more-projects-wrapper">
-              <a
-                className="project-link"
-                href={'https://github.com/ScrambledFox'}
-                target="_blank"
-                rel="noopener noreferrer"
+        </ul>
+        <Fade bottom duration={1000} distance="50px">
+          <div className="more-projects-wrapper">
+            <a
+              className="project-link"
+              href={'https://github.com/ScrambledFox'}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                className={classes.moreProjects}
+                type="button"
+                variant="contained"
               >
-                <Button
-                  className={classes.moreProjects}
-                  type="button"
-                  variant="contained"
-                >
-                  more projects
-                </Button>
-              </a>
-            </div>
-          </Fade>
-        </div>
-      </Section>
-    )
-  } else {
-    return null
-  }
+                more projects
+              </Button>
+            </a>
+          </div>
+        </Fade>
+      </div>
+    </Section>
+  )
+  // } else {
+  //   return null
+  // }
 }
 
 Modal.setAppElement('#root')
